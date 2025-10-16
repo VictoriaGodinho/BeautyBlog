@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Beauty Collection</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- ✅ Navbar should be inside the <body>, and at the very top -->
+    <nav class="navbar">
+      <div class="nav-content">
+        <a href="/" class="nav-logo">Beauty Collection</a>
+        <ul class="nav-links">
+          <li><a href="/">Blog</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <h1 class="site-title">Beauty Collection</h1>
+      <p class="subtitle">A personal archive of care, ritual, and style</p>
+    </header>
+
+    <main>
+      
+<section class="collection-grid">
+  <a href="/posts/hair/" class="card">
+    <img src="/images/hair.jpg" alt="Hair" />
+    <h2>Hair</h2>
+  </a>
+
+  <a href="/posts/makeup/" class="card">
+    <img src="/images/makeup.jpg" alt="Makeup" />
+    <h2>Makeup</h2>
+  </a>
+
+  <a href="/posts/skincare/" class="card">
+    <img src="/images/skincare.jpg" alt="Skincare" />
+    <h2>Skincare</h2>
+  </a>
+
+  <a href="/posts/fragrance/" class="card">
+    <img src="/images/fragrance.jpg" alt="Fragrance" />
+    <h2>Fragrance</h2>
+  </a>
+
+  <a href="/posts/body-care/" class="card">
+    <img src="/images/body.jpg" alt="Body Care" />
+    <h2>Body Care</h2>
+  </a>
+</section>
+
+    </main>
+
+    <footer>
+      <p>© 2025 Victoria Godinho · Made with Eleventy</p>
+    </footer>
+
+    <!-- ✅ Scripts should always go right before </body> -->
+    <script src="/navbar.js"></script>
+  </body>
+</html>
