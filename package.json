@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "build": "eleventy --input=source",
+    "build": "eleventy --input=source --pathprefix=BeautyBlog",
     "serve": "eleventy --serve --input=source"
   },
   "dependencies": {
